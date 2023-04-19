@@ -78,7 +78,7 @@ body {
 .boy {
     width: 1500px;
     height: 960px;
-    margin-top: 367px;
+    margin-top: 466px;
     margin-left: 95px;
 }
 
@@ -156,13 +156,13 @@ body {
 }
 
 #Vector1 {
-    background-color: rgba(244, 100, 63, 0.84);
+    position: absolute;
+    font-weight: bolder;
+    font-size: 17px;
+    border-radius: 50%;
     width: 65px;
     height: 65px;
-    border-radius: 50%;
-    margin-left: 127px;
-    position: absolute;
-    margin-top: -33px;
+    color: var(--orange);
 }
 
 .Vector1 {
@@ -223,8 +223,11 @@ body {
 }
 
 .child {
-    width: 760px;
     position: absolute;
+    margin-top: 83px;
+    width: 782px;
+    height: 671px;
+    margin-left: -10px;
 }
 
 .fight {
@@ -249,7 +252,7 @@ body {
 
 #botton {
     background: var(--mercury);
-    width: 118px;
+    width: 142px;
     height: 39px;
     position: absolute;
     margin-left: 910px;
@@ -289,7 +292,7 @@ body {
 .Learn {
     margin-top: 10px;
     font-family: 'Montserrat', sans-serif;
-    font-size: 22px;
+    font-size: 18px;
     font-weight: 700;
 }
 
@@ -347,9 +350,10 @@ body {
 }
 
 .help {
+    position: absolute;
     display: flex;
     margin-top: 745px;
-    position: absolute;
+    margin-left: 187px;
 }
 
 #block {
@@ -493,10 +497,9 @@ body {
 }
 
 .text11 {
-    margin-left: -32px;
-    font-size: 15px;
+    margin-left: -64px;
+    font-size: 17px;
     margin-top: 45px;
-    font-weight: 500;
     color: rgba(37, 37, 37, 1);
     font-family: 'Montserrat', sans-serif;
 }
@@ -535,7 +538,7 @@ body {
 
 #botton1 {
     background: var(--mercury);
-    width: 118px;
+    width: 142px;
     height: 39px;
     position: absolute;
     margin-left: 105px;
@@ -544,18 +547,20 @@ body {
 
 .text13 {
     font-family: 'Montserrat', sans-serif;
-    font-size: 20px;
+    font-weight: bold;
+    font-size: 21px;
     margin-top: 48px;
     margin-left: 20px;
     line-height: 30px;
 }
 
 .img {
-    width: 657px;
-    margin-left: 900px;
-    margin-top: -453px;
-    border-radius: 50% 50% 0 0;
     position: absolute;
+    width: 675px;
+    margin-left: 891px;
+    margin-top: -407px;
+    border-radius: 50% 50% 0 0;
+    height: 613px;
 }
 
 #Learn1 {
@@ -696,13 +701,6 @@ body {
     margin-left: 110px;
 }
 
-.footer {
-    position: absolute;
-    margin-top: 3860px;
-    margin-left: 357.5px;
-    border-radius: 20px;
-}
-
 .opacity {
     position: absolute;
     border-radius: 20px;
@@ -761,4 +759,20 @@ body {
 .circle1 {
     margin-top: 32px;
     margin-left: 35px;
+}
+hr{
+    color: black;
+    width: 100%;
+    height: 2px;
+    margin-top: 3861px;
+    background-color: var(--fight);
+}
+.texf{
+    display: flex;
+    justify-content: end;
+    margin-right: 65px;
+}
+.footer{
+width: 100%;
+height: 95px;
 }
