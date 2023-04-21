@@ -17,7 +17,9 @@ body {
 }
 
 #header {
-    position: absolute;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
     background: var(--mercury);
     width: 100%;
     height: 117px;
@@ -25,30 +27,26 @@ body {
 
 .text {
     font-size: 40px;
-    margin-top: 27px;
-    margin-left: 105px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
+    margin: 106px;
 }
 
 .text1 {
     color: rgba(48, 48, 48, 1);
     text-decoration: none;
-    margin-left: 110px;
     font-size: 20px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
 }
 
 #text1 {
-    margin-top: -25px;
-    margin-left: 495px;
-    position: absolute;
-}
-
-#donate {
-    margin-left: 1720px;
-    margin-top: -25px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: var(--mercury);
+    width: 100%;
+    height: 117px;
 }
 
 .donate {
@@ -63,9 +61,7 @@ body {
 }
 
 .text2 {
-    position: absolute;
-    margin-top: 179px;
-    margin-left: 102px;
+    margin-left: 106px;
     font-size: 65px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
@@ -78,42 +74,40 @@ body {
 .boy {
     width: 1500px;
     height: 960px;
-    margin-top: 466px;
-    margin-left: 95px;
+    margin-left: 106px;
+}
+
+.span {
+    display: flex;
+    align-items: center;
 }
 
 .text3 {
-    position: absolute;
-    margin-left: 875px;
-    margin-top: 222px;
     font-size: 18px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
 }
 
 #smiley {
+    position: absolute;
     background: rgba(255, 255, 255, 1);
     width: 314px;
     height: 360px;
-    margin-left: 1441px;
-    position: absolute;
-    margin-top: -480px;
     border-radius: 30px;
+    margin-left: 1430px;
 }
 
 .smiley {
-    margin-left: 27px;
-    margin-top: 25px;
+    margin: 17px 21px 0 27px;
     border-radius: 30px;
 }
 
 .username {
     font-size: 24px;
     color: var(--orange);
-    margin-left: 54px;
-    margin-top: 50px;
     font-weight: 600;
     font-family: 'Montserrat', sans-serif;
+    margin-left: 33px;
 }
 
 .color1 {
@@ -130,8 +124,6 @@ body {
     height: 65px;
     border-radius: 50%;
     margin-left: 127px;
-    position: absolute;
-    margin-top: -33px;
 }
 
 .Vector {
@@ -141,22 +133,20 @@ body {
 
 .investment {
     margin-left: 27px;
-    margin-top: 25px;
     border-radius: 30px;
+    margin: 17px 21px 0 27px;
 }
 
 #investment {
+    position: absolute;
     background: rgba(255, 255, 255, 1);
     width: 314px;
     height: 360px;
-    margin-left: 133px;
-    position: absolute;
-    margin-top: -163px;
+    margin: 28px 53px -275px 154px;
     border-radius: 30px;
 }
 
 #Vector1 {
-    position: absolute;
     font-weight: bolder;
     font-size: 17px;
     border-radius: 50%;
@@ -175,8 +165,6 @@ body {
     width: 113px;
     margin-left: 110px;
     height: 113px;
-    position: absolute;
-    margin-top: 117px;
 }
 
 .point {
@@ -185,14 +173,11 @@ body {
 
 .here {
     margin-left: 1626px;
-    position: absolute;
-    margin-top: -60px;
 }
 
 #result {
     display: flex;
     margin-left: 610px;
-    margin-top: 15px;
 }
 
 .number {
@@ -203,8 +188,6 @@ body {
 }
 
 .text5 {
-    margin-top: 15px;
-    position: absolute;
     font-size: 16px;
     color: rgb(74 73 73);
     font-family: 'Montserrat', sans-serif;
@@ -214,17 +197,13 @@ body {
     border: 1px solid #000;
     height: 49px;
     margin-left: 35px;
-    margin-top: 35px;
 }
 
 #support {
-    margin-top: 185px;
     margin-left: 185px;
 }
 
 .child {
-    position: absolute;
-    margin-top: 83px;
     width: 782px;
     height: 671px;
     margin-left: -10px;
@@ -236,7 +215,6 @@ body {
     height: 278px;
     position: absolute;
     margin-left: -30px;
-    margin-top: 510px;
 }
 
 .botton {
@@ -246,17 +224,13 @@ body {
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
     margin-left: 23px;
-    position: absolute;
-    margin-top: 10px;
 }
 
 #botton {
     background: var(--mercury);
     width: 142px;
     height: 39px;
-    position: absolute;
     margin-left: 910px;
-    margin-top: 120px;
 }
 
 .text6 {
@@ -264,8 +238,6 @@ body {
     font-weight: 600;
     font-size: 50px;
     margin-left: 906px;
-    position: absolute;
-    margin-top: 200px;
 
 }
 
@@ -274,8 +246,6 @@ body {
     font-weight: bold;
     font-size: 21px;
     margin-left: 800px;
-    position: absolute;
-    margin-top: 385px;
 }
 
 #Learn {
@@ -283,17 +253,17 @@ body {
     color: #fff;
     width: 160px;
     height: 45px;
-    position: absolute;
     margin-left: 906px;
-    margin-top: 635px;
     text-align: center;
 }
 
 .Learn {
-    margin-top: 10px;
     font-family: 'Montserrat', sans-serif;
     font-size: 18px;
     font-weight: 700;
+    text-decoration: none;
+    color: white;
+    margin-left: -71px;
 }
 
 #Couses {
@@ -301,14 +271,11 @@ body {
     color: var(--orange);
     width: 160px;
     height: 45px;
-    position: absolute;
     margin-left: 105px;
-    margin-top: 1000px;
     display: flex;
 }
 
 .Couses {
-    margin-top: 10px;
     font-family: 'Montserrat', sans-serif;
     font-size: 21px;
     font-weight: 700;
@@ -322,8 +289,6 @@ body {
     font-weight: 600;
     font-size: 50px;
     margin-left: 105px;
-    position: absolute;
-    margin-top: 1122px;
 }
 
 .stroke {
@@ -338,21 +303,16 @@ body {
 #stroke {
     display: flex;
     margin-left: 1425px;
-    margin-top: 1000px;
-    position: absolute;
 }
 
 .text9 {
     font-family: 'Montserrat', sans-serif;
-    margin-top: 5px;
     font-size: 19px;
     font-weight: 600;
 }
 
 .help {
-    position: absolute;
     display: flex;
-    margin-top: 745px;
     margin-left: 187px;
 }
 
@@ -362,8 +322,6 @@ body {
     background-color: #fff;
     border-radius: 20px;
     margin-left: 105px;
-    margin-top: 600px;
-    position: absolute;
 }
 
 #block1 {
@@ -372,8 +330,6 @@ body {
     background-color: #fff;
     border-radius: 20px;
     margin-left: 630px;
-    margin-top: 600px;
-    position: absolute;
 }
 
 #block2 {
@@ -382,113 +338,81 @@ body {
     background-color: #fff;
     border-radius: 20px;
     margin-left: 1160px;
-    margin-top: 600px;
-    position: absolute;
 }
 
 .icon {
-    position: absolute;
     width: 84px;
     height: 84px;
     background-color: var(--orange);
     margin-left: 51px;
-    margin-top: 41px;
     border-radius: 20px;
 }
 
 .icon1 {
-    position: absolute;
     width: 84px;
     height: 84px;
     background-color: rgba(240, 194, 74, 1);
     margin-left: 51px;
-    margin-top: 41px;
     border-radius: 20px;
 }
 
 .icon2 {
-    position: absolute;
     width: 84px;
     height: 84px;
     background-color: rgba(86, 185, 180, 1);
     margin-left: 51px;
-    margin-top: 41px;
     border-radius: 20px;
 }
 
 .icons {
     margin-left: 24px;
-    margin-top: 18px;
 }
 
 .patch {
-    position: absolute;
     margin-left: -33px;
-    margin-top: 38px;
 }
 
 .patch1 {
-    position: absolute;
     margin-left: -14px;
-    margin-top: 36px;
 }
 
 .patch2 {
-    position: absolute;
     margin-left: -21px;
-    margin-top: 35px;
 }
 
 .patch3 {
-    position: absolute;
     margin-left: -38px;
-    margin-top: 31px;
 }
 
 .patch4 {
-    position: absolute;
     margin-left: -38px;
-    margin-top: 37px;
 }
 
 .patch5 {
-    position: absolute;
     margin-left: -38px;
-    margin-top: 43px;
 }
 
 .patch6 {
-    position: absolute;
     margin-left: -38px;
-    margin-top: 50px;
 }
 
 .patch7 {
-    position: absolute;
     margin-left: -20px;
-    margin-top: 26px;
 }
 
 .patch8 {
-    position: absolute;
     margin-left: -20px;
-    margin-top: 33px;
 }
 
 .patch9 {
-    position: absolute;
     margin-left: -20px;
-    margin-top: 39px;
 }
 
 .patch0 {
-    position: absolute;
     margin-left: -20px;
-    margin-top: 45px;
 }
 
 .text10 {
-    margin-top: 162px;
     font-size: 32px;
     margin-left: 48px;
     font-family: 'Montserrat', sans-serif;
@@ -499,7 +423,6 @@ body {
 .text11 {
     margin-left: -64px;
     font-size: 17px;
-    margin-top: 45px;
     color: rgba(37, 37, 37, 1);
     font-family: 'Montserrat', sans-serif;
 }
@@ -507,26 +430,18 @@ body {
 .next {
     margin-left: -6px;
     width: 7px;
-    position: absolute;
     height: 10px;
-    margin-top: 11px;
 }
 
 #next {
     margin-left: 49px;
     color: #323232;
-    margin-top: 55px;
     font-family: 'Montserrat', sans-serif;
 }
 
 .dash {
     font-size: 23px;
     font-family: 'Montserrat', sans-serif;
-}
-
-.children {
-    position: absolute;
-    margin-top: 2080px;
 }
 
 .text12 {
@@ -540,25 +455,20 @@ body {
     background: var(--mercury);
     width: 142px;
     height: 39px;
-    position: absolute;
     margin-left: 105px;
-    margin-top: -85px;
 }
 
 .text13 {
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
     font-size: 21px;
-    margin-top: 48px;
     margin-left: 20px;
     line-height: 30px;
 }
 
 .img {
-    position: absolute;
     width: 675px;
-    margin-left: 891px;
-    margin-top: -407px;
+    margin-left: 960px;
     border-radius: 50% 50% 0 0;
     height: 613px;
 }
@@ -568,9 +478,7 @@ body {
     color: #fff;
     width: 160px;
     height: 45px;
-    position: absolute;
     margin-left: 105px;
-    margin-top: 122px;
     text-align: center;
 }
 
@@ -578,29 +486,26 @@ body {
     width: 725px;
     height: 307px;
     background-color: var(--fight);
-    margin-left: 865px;
-    margin-top: -70px;
-    position: absolute;
+    margin-left: 934px;
 }
-
+.vol{
+    display: flex;
+    align-items: flex-end;
+}
 #Couses1 {
     background: var(--fight);
     color: var(--orange);
     width: 160px;
     height: 45px;
-    position: absolute;
     margin-left: 835px;
-    margin-top: 2800px;
     display: flex;
 }
 
 .text14 {
     font-size: 59px;
     font-weight: 700;
-    position: absolute;
     text-align: center;
-    margin-left: 625px;
-    margin-top: 2900px;
+    margin-left: 370px;
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -611,8 +516,6 @@ body {
     border: 1px solid #d1d1d1;
     display: flex;
     border-radius: 20px;
-    margin-top: 3150px;
-    position: absolute;
     margin-left: 150px;
 }
 
@@ -623,8 +526,6 @@ body {
     border: 1px solid #d1d1d1;
     display: flex;
     border-radius: 20px;
-    margin-top: 3150px;
-    position: absolute;
     margin-left: 670px;
 }
 
@@ -635,8 +536,6 @@ body {
     border: 1px solid #d1d1d1;
     display: flex;
     border-radius: 20px;
-    margin-top: 3150px;
-    position: absolute;
     margin-left: 1185px;
 }
 
@@ -645,7 +544,6 @@ body {
     width: 333px;
     height: 251px;
     margin-left: 18px;
-    margin-top: 18px;
 }
 
 .hob {
@@ -653,27 +551,21 @@ body {
     color: var(--orange);
     font-size: 16px;
     font-weight: 600;
-    margin-top: 290px;
     margin-left: 25px;
-    position: absolute;
 }
 
 .hob1 {
     font-family: 'Montserrat', sans-serif;
     font-size: 21px;
     font-weight: 600;
-    margin-top: 340px;
     margin-left: 25px;
-    position: absolute;
 }
 
 .hob2 {
     font-family: 'Montserrat', sans-serif;
     font-size: 18px;
     font-weight: 400;
-    margin-top: 405px;
     margin-left: 25px;
-    position: absolute;
     color: #00000073;
 }
 
@@ -682,8 +574,6 @@ body {
     width: 90px;
     height: 32px;
     border: 1px solid #d1d1d1;
-    margin-top: 440px;
-    position: absolute;
     border-radius: 5px;
     text-decoration: none;
     margin-left: 25px;
@@ -693,16 +583,15 @@ body {
 
 .hob4 {
     font-size: 12px;
-    margin-top: 7px;
     font-family: 'Montserrat', sans-serif;
 }
 
 .Block {
     margin-left: 110px;
+
 }
 
 .opacity {
-    position: absolute;
     border-radius: 20px;
     width: 1205px;
     height: 349px;
@@ -716,25 +605,20 @@ body {
 }
 
 #text15 {
-    margin-top: 85px;
     margin-left: 305px;
-    position: absolute;
 }
 
 .text15 {
     font-family: 'Montserrat', sans-serif;
     font-size: 40px;
     color: var(--white);
-    position: absolute;
 }
 
 .text16 {
-    margin-top: 160px;
     margin-left: 163px;
     font-family: 'Montserrat', sans-serif;
     font-size: 18px;
     color: var(--white);
-    position: absolute;
 }
 
 #circle {
@@ -742,8 +626,6 @@ body {
     height: 104px;
     border-radius: 50%;
     background-color: rgba(255, 93, 36, 0.73);
-    margin-top: 4080px;
-    position: absolute;
     margin-left: 880px;
 }
 
@@ -753,26 +635,28 @@ body {
     background-color: rgba(255, 93, 36, 0.73);
     margin-left: 10px;
     border-radius: 50%;
-    margin-top: 10px;
 }
 
 .circle1 {
-    margin-top: 32px;
     margin-left: 35px;
 }
-hr{
+
+hr {
     color: black;
     width: 100%;
     height: 2px;
-    margin-top: 3861px;
     background-color: var(--fight);
 }
-.texf{
+
+.texf {
     display: flex;
     justify-content: end;
     margin-right: 65px;
+    font-size: 20px;
+    ;
 }
-.footer{
-width: 100%;
-height: 95px;
+
+.footer {
+    width: 100%;
+    height: 95px;
 }
