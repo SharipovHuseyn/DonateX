@@ -71,7 +71,7 @@ body {
 }
 
 .color {
-    color: green;
+    color: var(--orange);
 }
 
 .boy {
